@@ -1,0 +1,140 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scenes/Horse.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Background1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Camera2D.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Cowboy.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/ObjectA.tscn" type="PackedScene" id=6]
+
+[node name="TestScene" type="Node2D"]
+
+[node name="Background1" parent="." instance=ExtResource( 2 )]
+position = Vector2( -1069.54, -4113.56 )
+
+[node name="Horse" parent="." groups=[
+"player",
+] instance=ExtResource( 1 )]
+position = Vector2( 612.438, 513.864 )
+
+[node name="Horse2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 647.136, -35.7962 )
+is_player_controlled = false
+
+[node name="Cowboy" parent="." instance=ExtResource( 5 )]
+position = Vector2( 613.526, -133.506 )
+
+[node name="Cowboy2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1134.21, 136.46 )
+
+[node name="Cowboy3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 850.946, -572.107 )
+
+[node name="Cowboy4" parent="." instance=ExtResource( 5 )]
+position = Vector2( -38.3129, -397.727 )
+
+[node name="Cowboy5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 163.578, -998.351 )
+
+[node name="Cowboy6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 599.325, -1360.07 )
+
+[node name="Cowboy7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 833.181, -1757.12 )
+
+[node name="Cowboy8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 257.793, -1669.64 )
+
+[node name="Cowboy9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 370.515, -2303.91 )
+
+[node name="Cowboy10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 799.533, -2610.11 )
+
+[node name="Cowboy11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 177.037, -2840.6 )
+
+[node name="Cowboy12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 106.375, -3247.75 )
+
+[node name="Cowboy13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1068.72, -3323.46 )
+
+[node name="Cowboy14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 654.845, -3540.49 )
+
+[node name="Cowboy15" parent="." instance=ExtResource( 5 )]
+position = Vector2( 114.787, -3779.39 )
+
+[node name="Cowboy16" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1173.03, -2879.3 )
+
+[node name="Cowboy17" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1252.1, -2231.57 )
+
+[node name="Cowboy18" parent="." instance=ExtResource( 5 )]
+position = Vector2( -174.589, -2159.22 )
+
+[node name="Cowboy19" parent="." instance=ExtResource( 5 )]
+position = Vector2( -164.495, -1471.11 )
+
+[node name="Cowboy20" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1270.61, -1609.07 )
+
+[node name="Cowboy21" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1070.4, -1143.04 )
+
+[node name="Cowboy22" parent="." instance=ExtResource( 5 )]
+position = Vector2( 989.646, -1075.74 )
+
+[node name="Cowboy23" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1080.5, -1037.05 )
+
+[node name="Cowboy24" parent="." instance=ExtResource( 5 )]
+position = Vector2( 237.604, -1070.69 )
+
+[node name="Cowboy25" parent="." instance=ExtResource( 5 )]
+position = Vector2( -233.474, -1353.34 )
+
+[node name="Cowboy26" parent="." instance=ExtResource( 5 )]
+position = Vector2( -135.893, -1356.71 )
+
+[node name="Cowboy27" parent="." instance=ExtResource( 5 )]
+position = Vector2( 200.591, -1747.03 )
+
+[node name="Object" parent="." instance=ExtResource( 6 )]
+position = Vector2( 821.401, 178.325 )
+
+[node name="Object3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 816.667, -128.615 )
+
+[node name="Object2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 401.626, 339.291 )
+
+[node name="Object4" parent="." instance=ExtResource( 6 )]
+position = Vector2( 400.837, -129.404 )
+
+[node name="Object5" parent="." instance=ExtResource( 6 )]
+position = Vector2( 617.037, -381.111 )
+
+[node name="Object6" parent="." instance=ExtResource( 6 )]
+position = Vector2( 893.204, -381.111 )
+
+[node name="Object7" parent="." instance=ExtResource( 6 )]
+position = Vector2( 306.151, -693.575 )
+
+[node name="Object8" parent="." instance=ExtResource( 6 )]
+position = Vector2( -168.291, -1181.48 )
+
+[node name="Object9" parent="." instance=ExtResource( 6 )]
+position = Vector2( 834.432, -1634.05 )
+
+[node name="Object10" parent="." instance=ExtResource( 6 )]
+position = Vector2( 99.2136, -1179.79 )
+
+[node name="Object11" parent="." instance=ExtResource( 6 )]
+position = Vector2( 90.8015, -1294.2 )
+
+[node name="Object12" parent="." instance=ExtResource( 6 )]
+position = Vector2( 90.8015, -1408.6 )
+
+[node name="Camera2D" parent="." instance=ExtResource( 3 )]
